@@ -1,0 +1,223 @@
+body {
+	font-family: Open Sans;
+}
+
+.header {
+	text-align: center;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 4vw;
+	line-height: 65px;
+	margin: auto;
+}
+
+.card1 {
+	margin: -20% 43% 0% 57%;
+	width: 16%;
+	height: 42%;
+	/* margin: -286px 20px 20px 659px; */
+	background: #ee5253;
+	border-radius: 32px;
+	transition: 0.3s;
+}
+
+.card1:hover {
+	background: #be4242;
+}
+
+.card2 {
+	margin: 5% 12% 1% 25%;
+	width: 240px;
+	height: 280px;
+	background: #2e86de;
+	border-radius: 32px;
+	transition: 0.3s;
+}
+
+.card2:hover {
+	background: #256bb2;
+}
+
+.card3 {
+	position: relative;
+	width: 21%;
+	height: 23%;
+	margin: 6% 56%;
+	/*margin: 315px 550px;*/
+	background: #ffffff;
+	border: 6px solid #333333;
+	box-sizing: border-box;
+	border-radius: 32px;
+	transition: 0.3s;
+}
+
+.card3:hover {
+	background: #e6e6e6;
+}
+
+.card4 {
+	position: relative;
+	width: 21%;
+	height: 23%;
+	margin: -17% 23%;
+	/*margin: 315px 550px;*/
+	background: #ffffff;
+	border: 6px solid #333333;
+	box-sizing: border-box;
+	border-radius: 32px;
+	transition: 0.3s;
+}
+
+.card4:hover {
+	background: #e6e6e6;
+}
+
+.container {
+	margin: auto;
+	width: 60%;
+	height: 19%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	/* font-size: 25px; */
+	font-size: 31px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.container2 {
+	position: absolute;
+	top: 20%;
+	left: 39%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 44px;
+	color: #333333;
+}
+
+.container4 {
+	position: absolute;
+	top: 30%;
+	left: 24%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 44px;
+	color: #333333;
+}
+
+.masuk {
+	padding-top: 70px;
+	position: relative;
+	margin: 0px 0px 0px 70px;
+	width: 37%;
+	user-select: none;
+	content: url("https://api.iconify.design/bx/bx-log-in.svg?color=white&height=88");
+}
+
+.keluar {
+	padding-top: 70px;
+	position: relative;
+	margin: 0px 0px 0px 70px;
+	width: 36%;
+
+	content: url("https://api.iconify.design/bx/bx-log-out.svg?color=white&height=80");
+}
+
+.pengajuan {
+	position: absolute;
+	top: 28%;
+	left: 12%;
+
+	content: url("https://api.iconify.design/icon-park-outline/permissions.svg?color=black&height=64");
+}
+.news {
+	position: absolute;
+	top: 28%;
+	left: 12%;
+}
+
+.button-admin {
+	position: absolute;
+	width: 128px;
+	height: 64px;
+	left: 88%;
+	top: 6%;
+
+	background: #cce3ff;
+	border-radius: 16px;
+}
+
+.container3 {
+	position: absolute;
+	top: 16%;
+	left: 40%;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 44px;
+
+	color: #2e86de;
+}
+
+.admin-icon {
+	position: absolute;
+	top: 30%;
+	left: 16%;
+
+	content: url("https://api.iconify.design/grommet-icons/user-admin.svg?color=%232E86DE&height=24");
+}
+
+.button-quit {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border-radius: 100%;
+	top: 6%;
+	left: 4%;
+
+	background: rgba(239, 139, 139, 0.2);
+}
+
+.quit {
+	position: absolute;
+	top: 17%;
+	left: 17%;
+	content: url("https://api.iconify.design/fa-solid/power-off.svg?color=%23F17474&height=32");
+}
+
+.card2 .popuptext {
+	visibility: hidden;
+	width: 160px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -80px;
+  }
+  .card2 .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }

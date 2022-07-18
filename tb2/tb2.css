@@ -1,0 +1,167 @@
+body {
+    font-family: Open Sans;
+}
+
+.header {
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 65px;
+
+    padding-top: 124px;
+}
+
+.card1 {
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    left: 34%;
+    top: 30%;
+
+    background: #2E86DE;
+    border-radius: 32px;
+    transition: 0.3s;
+
+}
+
+.card1:hover {
+    background: #256BB2;
+}
+
+.card2 {
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    left: 54%;
+    top: 30%;
+
+    background: #EE5253;
+    border-radius: 32px;
+    transition: 0.3s;
+
+}
+
+.card2:hover {
+    background: #BE4242;
+}
+
+.card3 {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    left: 42%;
+    top: 64%;
+
+    background: #FFFFFF;
+    border: 6px solid #333333;
+    box-sizing: border-box;
+    border-radius: 32px;
+    transition: 0.3s;
+
+}
+
+.card3:hover {
+    background: #E6E6E6;
+}
+
+.container {
+    position: absolute;
+    padding: 200px 72px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.container2 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 44px;
+
+    color: #333333;
+}
+
+.masuk {
+    position: absolute;
+    padding: 64px 64px;
+
+    content: url('https://api.iconify.design/bx/bx-log-in.svg?color=white&height=88');
+}
+
+.keluar {
+    position: absolute;
+    padding: 64px 72px;
+
+    content: url('https://api.iconify.design/bx/bx-log-out.svg?color=white&height=80');
+}
+
+.pengajuan {
+    position: absolute;
+    top: 28%;
+    left: 12%;
+
+    content: url('https://api.iconify.design/icon-park-outline/permissions.svg?color=black&height=64');
+}
+
+
+.button-admin {
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    left: 88%;
+    top: 6%;
+
+    background: #CCE3FF;
+    border-radius: 16px;
+}
+
+.container3 {
+    position: absolute;
+    top: 16%;
+    left: 40%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 44px;
+
+    color: #2E86DE;
+}
+
+.admin-icon {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+
+    content: url('https://api.iconify.design/grommet-icons/user-admin.svg?color=%232E86DE&height=24');
+}
+
+.button-quit {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    top: 6%;
+    left: 4%;
+
+    background: rgba(239, 139, 139, 0.2);
+}
+
+.quit{
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    content: url('https://api.iconify.design/fa-solid/power-off.svg?color=%23F17474&height=32');
+}
